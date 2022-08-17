@@ -1,0 +1,25 @@
+<html>
+<title> Softys Home | Toss The Turtle </title>
+<head>
+<!-- <script src="Ruffle/ruffle.js"></script> -->
+<script src="Ruffle/ruffle.js"></script>
+<link rel="shortcut icon" href="res/favicon.png"/>
+</head>
+<body>
+<body style="background-color:black;">
+</body>
+<h1><a style="text-decoration: bold; font-size:30px; color: #f7bce2";">STFU - Flash<a></h1>
+<embed src="SWFs/ttt0.swf">
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+
+    window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest();
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("movie.swf");
+    });
+</script>
+
+</html>
