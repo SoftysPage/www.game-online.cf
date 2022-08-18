@@ -23,7 +23,7 @@
 			</li>
 		</ul>
 		<br><br><br>
-	<embed src="SWFs/ttt0.swf">
+<embed class="centered" src="SWFs/ttt0.swf">
 	<script>
 		window.RufflePlayer = window.RufflePlayer || {};
 

@@ -134,4 +134,8 @@ li.dropdown2 a, .dropbtn2
 	display: block;
 }
 
+h3
+{
+	color: white
+
 /* Made By Softy */
