@@ -137,5 +137,13 @@ li.dropdown2 a, .dropbtn2
 h3
 {
 	color: white
+}
 
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
 /* Made By Softy */
