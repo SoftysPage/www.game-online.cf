@@ -1,8 +1,9 @@
 <html>
 	<head>
-		<title>Index | Game Online</title>
+		<title> Toss The Turtle | Game Online </title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
+	<script src="Ruffle/ruffle.js"></script>
 	<body>
 		<ul>
 			<label class="logo">Game Online</label>
@@ -21,8 +22,20 @@
 				</div>
 			</li>
 		</ul>
+		<br><br><br>
+	<embed src="SWFs/ttt0.swf">
+	<script>
+		window.RufflePlayer = window.RufflePlayer || {};
+
+		window.addEventListener("DOMContentLoaded", () => {
+			let ruffle = window.RufflePlayer.newest();
+			let player = ruffle.createPlayer();
+			let container = document.getElementById("container");
+			container.appendChild(player);
+			player.load("movie.swf");
+		});
+	</script>
 		
-		<h3>Welcome to Game Online. You can find something to do within the menu above</h3>
 		
 	</body>
 </html>
