@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title> Line Gáme | Game Online </title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<script src="Ruffle/ruffle.js"></script>
+	<body>
+		menu goes here
+<embed src="SWFs/line-game.swf" class="centered">
+	<script>
+		window.RufflePlayer = window.RufflePlayer || {};
+
+		window.addEventListener("DOMContentLoaded", () => {
+			let ruffle = window.RufflePlayer.newest();
+			let player = ruffle.createPlayer();
+			let container = document.getElementById("container");
+			container.appendChild(player);
+			player.load("movie.swf");
+		});
+	</script>
+		
+		
+	</body>
+</html>
