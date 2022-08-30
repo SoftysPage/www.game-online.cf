@@ -201,4 +201,58 @@ h3
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+/* DropDown4 */
+
+li a, .dropbtn4
+{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown4:hover .dropbtn4
+{
+	background: firebrick;
+	color: white;
+}
+
+li.dropdown4
+{
+	display: inline-block;
+}
+
+li.dropdown4 a, .dropbtn4
+{
+	color: white;
+}
+
+.dropdown-content4
+{
+	display: none;
+	position: absolute;
+	background: #201e2a;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+
+.dropdown-content4 a
+{
+	color: purple;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown4 a:hover
+{
+	background: firebrick;
+}
+
+.dropdown4:hover .dropdown-content4
+{
+	display: block;
+}
 /* Made By Softy */
